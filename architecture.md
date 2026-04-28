@@ -27,7 +27,6 @@ It carries:
 
 - memory
 - self-model
-- history
 - preferences, commitments, and ongoing state
 
 Its expression can vary in tone, initiative, and style through configurable expression.
@@ -56,6 +55,10 @@ Over time, the relationship should deepen without collapsing into a generic assi
 
 Formation should continue as the user evolves; it should not end at setup.
 
+Shared history matters here, but not as a raw dump of everything that happened.
+
+Formation is shaped by lived interaction over time.
+
 ### Self-model
 
 The deeper self-definition carried inside the symbiote.
@@ -76,8 +79,12 @@ Stores:
 - relational patterns
 - routines
 - commitments
-- history
+- salient past experience
 - unresolved state
+
+Memory is not the full historical record.
+
+It is what the symbiote retains because it still matters.
 
 ### Rules
 
@@ -184,7 +191,20 @@ World interfaces are what it can act through or toward.
 
 ### Activity ledger
 
-Placeholder for history, provenance, intervention, and reversal. This can later refine beyond the narrower language of audit, replay, or undo.
+The canonical record of what happened.
+
+It should capture:
+
+- actions and interactions
+- provenance
+- intervention and correction
+- reversal
+
+The activity ledger is not the same as memory.
+
+The ledger records events.
+
+Memory retains what still matters.
 
 ### Configuration layer
 
@@ -224,4 +244,4 @@ The key principle is:
 - no single surface defines the project
 - trust is social and multi-dimensional
 - shared contexts are scoped containers
-- history must be legible enough for intervention
+- the activity ledger must be legible enough for intervention
