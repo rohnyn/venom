@@ -2,7 +2,7 @@
 
 ## System shape
 
-Separate identity, cognition, action, trust, integration, and configuration so the stack can be swapped while preserving continuity.
+Separate identity, cognition, governance, trust, embodiment, formation, and configuration so the stack can be swapped while preserving continuity.
 
 ## Core components
 
@@ -10,40 +10,53 @@ Separate identity, cognition, action, trust, integration, and configuration so t
 
 The real person. Final authority and source of correction.
 
-### Clone
+### Symbiote
 
-The user's persistent representative across time, environments, brains, and services.
+The user's persistent bonded digital counterpart across time, environments, brains, and services.
 
 Working intuition:
 
-- a digital human
+- a digital counterpart
+- formed through symbiosis, not just configuration
 
-The clone preserves continuity on the user's behalf across environments.
+The symbiote preserves continuity across environments while becoming more aligned through observation, correction, and shared history.
 
-It is composed of:
+It carries:
 
 - memory
-- SOUL
-- rules
-- trust graph
+- self-model
 - history
 - preferences, commitments, and ongoing state
 
 Its expression can vary in tone, initiative, and style through configurable expression.
 
-### Memory
+It is not meant to be a static copy of the user.
 
-Stores:
+It is a coupled system that should evolve with the user, becoming more legible, more useful, and more aligned over time.
 
-- preferences
-- routines
-- commitments
-- history
-- unresolved state
+It sits inside a wider control plane that governs it and situates it socially:
 
-### SOUL
+- rules govern what it may do
+- the trust graph governs who it may relate to, represent toward, and defer to
 
-The durable self-definition of the clone.
+### Formation
+
+The symbiote forms through:
+
+- observation
+- correction
+- repeated use
+- shared history across contexts
+
+Early bootstrap is likely slower and more intimate than assistant setup.
+
+Over time, the system should become more aligned without collapsing into a generic assistant persona.
+
+The user is not static either. The symbiote should keep adapting as the user grows and changes.
+
+### Self-model
+
+The deeper self-definition carried inside the symbiote.
 
 It may include:
 
@@ -51,15 +64,26 @@ It may include:
 - tone and style
 - delegation posture
 - identity preferences
-- preferences about how the clone should show up in the world
+- preferences about how the symbiote should show up in the world
 
-SOUL gives the clone continuity across brains, services, contexts, environments, and time.
+One important part of this self-model is `SOUL`.
 
-SOUL carries:
+`SOUL` carries:
 
-- what the clone is trying to preserve
+- what the symbiote is trying to preserve
 - how it should show up
 - what should remain true across contexts
+
+### Memory
+
+Stores:
+
+- preferences
+- relational patterns
+- routines
+- commitments
+- history
+- unresolved state
 
 ### Rules
 
@@ -67,23 +91,23 @@ The independent governing layer.
 
 Rules define:
 
-- what the clone may do
+- what the symbiote may do
 - what must remain explicit
 - what is forbidden
 - what disclosure is required
 - which brains, tools, and services may be used
 - under what constraints
 
-Rules govern the clone's action.
+Rules govern the symbiote's action.
 
-SOUL and rules stay distinct:
+The self-model and rules stay distinct:
 
-- SOUL defines the self
+- the self-model defines the self
 - rules govern behavior
 
 ### Trust graph
 
-Multi-dimensional model of the people, groups, organizations, clones, and services the system may share with, defer to, or represent toward.
+Multi-dimensional model of the people, groups, organizations, symbiotes, and services the system may share with, defer to, or represent toward.
 
 Trust starts simple and can vary across dimensions such as:
 
@@ -98,7 +122,7 @@ The graph includes trust-bearing actors and contexts such as:
 - organizations
 - services
 - brains
-- other clones
+- other symbiotes
 - shared contexts
 
 ### Shared contexts
@@ -119,7 +143,9 @@ Representation may take forms such as:
 - speak
 - act
 
-The trust graph works together with SOUL and rules to shape representation.
+Representation should track a changing user in a changing context, not just enforce a fixed mask.
+
+The trust graph works together with the self-model and rules to shape representation over time and across contexts.
 
 ### Intent stack
 
@@ -135,54 +161,51 @@ Keeps work alive over time, plans, delegates, tracks state, and reconciles resul
 
 ### Brain layer
 
-Swappable local and remote reasoning systems. Brains are embodiments of the clone.
+Swappable local and remote reasoning systems. Brains are reasoning substrates the symbiote can work through.
 
-### Action layer
+### Embodiment surfaces
 
-Abstract actions the clone can perform such as communicate, plan, monitor, coordinate, search, buy, capture, and transform.
+Where the symbiote is present.
 
-### Integration surfaces
-
-The environments Venom inhabits.
-
-Likely surfaces include:
+Likely embodiment surfaces include:
 
 - mobile
 - desktop
 - browser
 - wearables and ambient devices
-- service and workflow environments
+
+Mobile is one likely first deep embodiment because it offers the richest personal integration surface.
 
 ### World interfaces
 
-Where actions land: services, devices, systems, and people.
+Where the symbiote's work lands: services, devices, systems, workflows, and people.
+
+This is distinct from embodiment surfaces.
+
+Embodiment is where the symbiote is present.
+
+World interfaces are what it can act through or toward.
 
 ### Activity ledger
 
 Placeholder for history, provenance, intervention, and reversal. This can later refine beyond the narrower language of audit, replay, or undo.
 
-### Extension layer
-
-Installable brains, tools, connectors, automations, and policies.
-
 ### Configuration layer
 
-The swappability contract that keeps every layer configurable while preserving clone continuity.
+The swappability contract that keeps every layer configurable while preserving symbiote continuity.
 
 ## Swappability
 
-Brains, tools, and services are components that the clone may work through.
+Brains, tools, and services are components that the symbiote may work through.
 
 The layers that should stay distinct are:
 
-- clone
-- SOUL
+- symbiote
 - rules
 - trust graph
+- formation layer
 - brain layer
-- action layer
-- integration surfaces
-- extension layer
+- embodiment surfaces
 - configuration layer
 
 The key principle is:
@@ -191,11 +214,13 @@ The key principle is:
 
 ## Working principles
 
-- the clone is singular even if embodiment is plural
+- the symbiote is singular even if embodiment is plural
+- the symbiote is formed through symbiosis, not merely configured
 - brains are replaceable
-- SOUL defines the self the clone is trying to preserve
-- rules govern what the clone may do and how it may work through brains and services
+- the self-model defines the self the symbiote is trying to preserve
+- rules govern what the symbiote may do and how it may work through brains and services
 - mobile first is a sequencing choice
+- no single surface defines the project
 - trust is social and multi-dimensional
 - shared contexts are scoped containers
 - history must be legible enough for intervention

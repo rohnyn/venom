@@ -2,21 +2,23 @@
 
 ## One-line version
 
-An open-source platform for user-owned clones, built around a personal clone, a user-owned stack, and multiple integration surfaces.
+A user-owned digital symbiote that forms through deep integration, evolves with the user, and persists across brains, tools, and surfaces.
 
 ## Product definition
 
 The system should provide:
 
+- formation through observation, correction, and use
+- ongoing adaptation as the user changes
 - personal continuity across brains, tools, devices, and environments
 - durable memory
-- a SOUL for delegation, representation, and continuity
+- a deeper self-model for delegation, adaptive representation, and continuity
 - an independent rules layer
 - a trust model for people, groups, and services
-- swappable brains and extensions
+- swappable brains, tools, and connectors
 - visible history and user intervention
 
-## Integration Surfaces
+## Embodiment Surfaces
 
 Venom should eventually be able to inhabit multiple surfaces such as:
 
@@ -24,22 +26,25 @@ Venom should eventually be able to inhabit multiple surfaces such as:
 - desktop
 - browser
 - wearables and ambient devices
-- service and workflow environments
 
-Mobile is first because it is the most intimate and continuous user environment.
+No single surface defines the project.
+
+Mobile is an early embodiment priority because it is the most intimate and continuous user environment.
 
 ## User promise
 
 The system should feel like:
 
 - your environments stay yours
-- your clone remembers what should be remembered
+- your symbiote grows with you
+- your symbiote remembers what should be remembered
 - you decide how it thinks, acts, and shares
 - you can swap parts of the stack while preserving continuity
 
 ## Design Commitments
 
 - user-owned continuity
+- symbiote formation through use, not just setup
 - visible delegation and intervention
-- swappable cognition and extensions
-- clone-centered identity across surfaces
+- swappable cognition, tools, and connectors
+- symbiote-centered identity across surfaces

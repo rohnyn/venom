@@ -1,29 +1,22 @@
 # Venom
 
-Working repo for exploring a user-owned clone platform and control plane.
+Venom is a project for building a user-owned digital symbiote.
 
-## Current Position
+It is a control plane for a persistent personal symbiote that forms through deep integration with the user and can work across brains, tools, services, and surfaces.
 
-Venom is a clone-first project whose first natural deep embodiment is mobile.
+A quick way to think about it:
 
-Its primary abstraction is a persistent personal clone and the control plane around it.
+- a personal symbiote, not just an assistant
+- formed through deep integration, observation, and correction
+- keeps identity separate from brains, tools, and services
 
-One useful shorthand:
+Right now the work is to define the core model:
 
-- heavily inspired by OpenClaw
-- centered on your clone
-- shaped around deep integration and symbiosis with the user
-- mobile first
-- and with the expectation that other integration layers follow
-
-The current design task is to define:
-
-- the clone
-- the SOUL that defines it
-- the rules that govern it
-- the social and trust model around it
-- the integration surfaces it can inhabit
-- the swappable brains and tools it can work through
+- what the symbiote is
+- how it forms
+- how its self-model works
+- how its rules and trust model govern it
+- what surfaces and swappable systems it can work through
 
 before committing to implementation details.
 
@@ -35,15 +28,15 @@ If you're new here, read in this order:
 2. [vision.md](vision.md)
 3. [thesis.md](thesis.md)
 4. [architecture.md](architecture.md)
-5. [roadmap.md](roadmap.md)
 
 ## Current working beliefs
 
-- The long-term object is a persistent personal clone.
-- OpenClaw is a major inspiration.
-- The missing layer is a user-owned control plane for memory, SOUL, rules, trust, and representation across environments.
+- The long-term object is a persistent personal symbiote.
+- The symbiote is formed through use, observation, correction, and shared history, not merely configured.
+- The symbiote should evolve with the user, not model a fixed snapshot of them.
 - The stack should be swappable layer by layer, with identity kept distinct from brains, tools, and services.
-- Mobile is the first natural deep integration layer.
+- Bootstrapping the symbiote is likely slower and more observational than assistant setup.
+- Mobile is one likely first deep embodiment, not the definition of the project.
 - Desktop, browser, wearables, and service workflows are plausible future embodiments.
 - Trust is social, multidimensional, and user-defined.
 - The model should lead implementation.

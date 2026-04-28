@@ -2,26 +2,54 @@
 
 ## Problem
 
-People live across multiple environments, and current AI is still mostly fragmented by app, tab, device, and provider.
+People live across multiple environments, and current AI is still mostly fragmented by app, device, provider, and runtime.
 
-Mobile is the first natural deep integration layer, and current mobile AI is still mostly optimizing the symptom layer:
+Two important gaps are visible right now.
+
+Mobile AI is still mostly optimizing the symptom layer:
 
 - notifications
 - replies
 - summaries
 - workflow tricks
 
-Venom focuses on a deeper layer:
+Assistant runtimes are optimizing a different layer:
 
-- durable self model
+- tool use
+- channel presence
+- automation
+- delegation
+- making an AI assistant actually do things
+
+Both matter, but Venom targets the deeper user layer:
+
+- a bonded symbiotic layer around the user
+- a durable self-model
 - user-owned memory
 - user-owned identity
 - deeper delegation
-- social representation
+- adaptive social representation
 - stack swappability
-- continuity across the environments where people actually live
+- continuity across the environments and runtimes where people actually live
 
-## Why This Is Broader Than Mobile
+The point is not to model a static user.
+
+It is to stay aligned as the user grows and changes.
+
+## What Layer Venom Operates At
+
+At a broader layer, Venom is not just about one human using one assistant.
+
+It points toward a model where:
+
+- human A works through symbiote A
+- human B works through symbiote B
+- symbiotes can coordinate, filter, represent, and negotiate under human-owned rules and trust
+- the human remains final authority
+
+Venom sits above any one assistant runtime or embodiment surface.
+
+## Why This Is Broader Than Any One Surface Or Runtime
 
 The user moves across:
 
@@ -31,7 +59,17 @@ The user moves across:
 - shared workflows
 - ambient and wearable surfaces
 
-Venom treats those environments as expressions of one persistent self.
+Venom treats those environments as expressions of one persistent symbiotic self.
+
+Mobile matters because it is the deepest personal surface.
+
+Assistant runtimes matter because they provide one execution substrate.
+
+Venom sits above both:
+
+- mobile is one deep embodiment
+- assistant runtimes are one execution substrate
+- Venom defines the persistent symbiote that can work through both
 
 ## Why Mobile First
 
@@ -45,7 +83,7 @@ Mobile has the richest stream of personal context:
 - payment and commerce intent
 - social and communication workflows
 
-If a persistent clone is going to matter anywhere first, it should matter on the phone.
+If a persistent symbiote is going to form anywhere first, it should matter on the phone.
 
 ## Why Now
 
@@ -59,17 +97,19 @@ Three things are converging:
 
 Venom is a user-owned control plane for:
 
-- clone continuity
+- symbiote formation
+- symbiote continuity
 - memory
-- SOUL
+- self-model
 - rules
 - trust
-- work across brains, tools, and environments
+- representation between people, symbiotes, and services
+- work across brains, tools, environments, and runtimes
 - history and intervention
 
 ## Core design line
 
-Define the self model before any one surface model.
+Define the symbiote before any one embodiment.
 
 Define the control plane before the implementation plan.
 
@@ -77,24 +117,16 @@ Define the control plane before the implementation plan.
 
 The primary abstraction becomes:
 
-- a user-owned clone
-- a SOUL that defines it
+- a user-owned symbiote
+- a formation loop that shapes it over time
+- a self-model that defines it
 - a rules layer that governs it
-- a brain layer it can embody through
-- an action layer that lets it work across environments and the world
+- a brain layer it can work through
+- embodiment surfaces it can inhabit
+- world interfaces it can act through
 
-Apps, brains, and services remain important as interchangeable embodiments that carry the clone into the world.
+Apps, brains, services, and assistant runtimes remain important as interchangeable embodiments that carry the symbiote into the world.
 
-## OpenClaw Lineage
+The emphasis is on identity, continuity, and action on the user's behalf.
 
-OpenClaw is a major inspiration and an important reference point for openness, user control, and swappability.
-
-Venom builds on that lineage with a control plane around a digital human:
-
-- a persistent clone
-- a SOUL
-- an independent rules layer
-- a trust model
-- social representation
-
-The emphasis is on what the user is, how that continuity persists, and how the system acts on the user's behalf across brains, tools, services, devices, and workflows while keeping identity coherent.
+The symbiote should stay coherent as it works across brains, tools, services, devices, workflows, and other symbiotes.

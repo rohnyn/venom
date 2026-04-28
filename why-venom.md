@@ -1,111 +1,122 @@
 # Why Venom Exists
 
-This note answers one question:
+This repo raises a fair question:
 
 > "Couldn't OpenClaw already do this?"
 
-Short answer: no, not if Venom stays true to its vision.
+Short answer:
 
-Venom may borrow ideas from OpenClaw or use systems like it. But Venom is trying to build something different.
+- OpenClaw runs assistants.
+- Venom forms, governs, and preserves a user-owned symbiote.
 
-## Short version
+The difference is architectural, not cosmetic.
 
-OpenClaw is an AI assistant runtime.
+## The few differences that actually matter
 
-Venom is a clone control plane.
+### 1. OpenClaw is built around the wrong native objects
 
-OpenClaw is about running an assistant well. Venom is about defining the persistent digital human itself:
+OpenClaw is built around:
 
-- who it is
-- what it remembers
-- what it is allowed to do
-- who it trusts
-- how it represents you
-- what stays the same as tools, models, and devices change
+- `agent`
+- `workspace`
+- `session`
+- `channel account`
+- `binding`
 
-That is why Venom needs to be its own project.
+OpenClaw's own multi-agent model defines an agent as its own workspace, state directory, auth profiles, and session store.
 
-## Why this is its own project
+Venom needs different native objects:
 
-### 1. Venom starts with the clone, not the assistant
+- `symbiote`
+- `self-model`
+- `rules`
+- `trust graph`
+- `shared contexts`
+- `representation modes`
+- `activity ledger`
 
-OpenClaw starts with the assistant. Venom starts with the clone.
+Venom needs to store, route, and reason around those directly.
 
-If you start with the assistant, identity and behavior usually get attached to the runtime. If you start with the clone, the runtime is only one way the clone shows up in the world.
+If they only exist as prompt text, markdown files, or plugin-owned metadata inside OpenClaw, they are not first-class. They are conventions layered on top of an assistant runtime.
 
-### 2. Venom owns identity and rules
+### 2. OpenClaw's extension surface is too narrow
 
-In Venom, `SOUL` does not just mean tone or style. It means the deeper self-definition of the clone: what it is trying to preserve, how it should show up, and what should stay true across contexts.
+OpenClaw's core plugin kinds are:
 
-Venom also keeps `rules` separate from `SOUL`:
+- `memory`
+- `context-engine`
 
-- `SOUL` defines the self
-- `rules` govern behavior
+Its main plugin slots are also exclusive:
 
-Those rules need to say what the clone may do, what must stay explicit, what is forbidden, and what must be disclosed. If identity and rules mostly live inside another runtime's prompts or config, Venom no longer owns the thing that matters.
+- one active `plugins.slots.memory`
+- one active `plugins.slots.contextEngine`
 
-### 3. Venom has a deeper social model
+That tells you where OpenClaw expects customization to happen:
 
-Venom treats trust as a core system, not a side feature. It cares about who the clone trusts, who can influence it, who it can represent toward, and what changes across people, groups, organizations, and services.
+- retrieval
+- memory behavior
+- prompt assembly
+- compaction
+- some runtime hooks
 
-It also treats shared contexts like household, team, project, trip, or relationship as real objects with their own expectations, rules, and boundaries.
+That is enough to change how an assistant behaves.
+It is not enough to replace the system's routing and storage model.
 
-And it cares about different levels of representation:
+A context engine can decide what goes into a run.
+A memory plugin can change recall behavior.
+Neither one turns `symbiote`, `trust graph`, `shared context`, or `activity ledger` into gateway-level objects.
 
-- observe
-- prepare
-- coordinate
-- speak
-- act
+That is why Venom is not a normal OpenClaw plugin or extension.
 
-That is a bigger model than "assistant plus sessions plus tool access."
+### 3. OpenClaw persists continuity as gateway-owned sessions
 
-### 4. Venom bootstraps differently
+OpenClaw is explicit about this: all session state is owned by the gateway and stored per agent under `~/.openclaw/agents/<agentId>/sessions`.
 
-OpenClaw is mostly bootstrapped through configuration:
+That means the thing OpenClaw naturally persists is a session:
 
-- connect tools
-- connect channels
-- set up memory
-- define prompts
-- tune behavior
+- session keys
+- session transcripts
+- session lifecycle
+- per-agent workspace state
 
-Venom likely needs a slower and more personal bootstrap. To form a real clone, it probably needs some phase of observation and deep integration: how you communicate, what you care about, what you repeat, what you avoid, what should stay private, and how you differ across people and contexts.
+That is the right model for assistant conversations.
 
-So Venom bootstrap may be simpler in one sense, with less manual configuration, but slower in another sense, because it has to learn a person rather than just configure a tool stack.
+It is the wrong model for Venom if a `household`, `team`, `project`, or `relationship` is supposed to be a real object with its own trust and representation policy.
 
-## What OpenClaw could still be
+In OpenClaw, those things would be emulated through sessions, files, and conventions.
+In Venom, they need to be native.
 
-Something like OpenClaw could be:
+### 4. OpenClaw scales by adding more isolated agents
 
-- an executor Venom offloads work to
-- an embodiment layer Venom uses on certain surfaces
-- a worker similar to a spawned agent
-- a bundle of useful capabilities like channels, browser control, or local automation
+OpenClaw's multi-agent model is also explicit: each agent gets its own isolated workspace, auth, and session history.
 
-That is a real role. It is just not the same as being the system Venom is built inside.
+That is the right move for multiple assistants, personas, or people.
 
-## A simple test
+Venom wants one symbiote that can appear across many surfaces and contexts while keeping one deeper identity model.
 
-Venom is still Venom only if these things belong to Venom:
+OpenClaw's native move is another agent.
+Venom's native move is another embodiment of the same symbiote.
 
-- clone identity
-- SOUL
-- rules
-- trust
-- shared contexts
-- representation logic
-- activity ledger
-- cross-surface continuity
+That is a real architectural difference.
 
-If those things mostly live inside another assistant runtime, then Venom has collapsed into that runtime.
+## What this means
 
-## Bottom line
+This is not "OpenClaw is weak."
+It is "OpenClaw is centered on different primitives."
 
-OpenClaw helps run assistants.
+Could you build Venom as a deep OpenClaw fork?
 
-If what you want is a long-lived assistant, OpenClaw may already cover a lot of that ground.
+Yes, but only by replacing more and more of what OpenClaw is centered on:
 
-Venom only makes sense if the goal is to define the persistent clone itself.
+- its primary objects
+- its session-first continuity model
+- its isolated-agent scaling model
 
-That is why Venom is its own project, and why systems like OpenClaw, if used at all, should sit below Venom as tools or workers, not above it as the thing that defines the clone.
+That is not a normal customization.
+That is a new system wearing some OpenClaw parts.
+
+## What OpenClaw can still be
+
+OpenClaw can still be useful below Venom as an executor, worker, or embodiment on some surfaces.
+
+It just should not be the system that defines the symbiote.
