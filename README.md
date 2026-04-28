@@ -33,7 +33,7 @@ If you're new here, read in this order:
 
 - The long-term object is a persistent personal symbiote.
 - The symbiote is formed through use, observation, correction, and shared history, not merely configured.
-- The symbiote should evolve with the user, not model a fixed snapshot of them.
+- User and symbiote should grow together through shared history, not freeze into a fixed snapshot.
 - The stack should be swappable layer by layer, with identity kept distinct from brains, tools, and services.
 - Bootstrapping the symbiote is likely slower and more observational than assistant setup.
 - Mobile is one likely first deep embodiment, not the definition of the project.

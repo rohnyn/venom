@@ -34,7 +34,9 @@ Both matter, but Venom targets the deeper user layer:
 
 The point is not to model a static user.
 
-It is to stay aligned as the user grows and changes.
+People do not stop developing.
+
+The symbiote should grow with the user through a relationship that changes both across different stages of life.
 
 ## What Layer Venom Operates At
 

@@ -2,14 +2,13 @@
 
 ## One-line version
 
-A user-owned digital symbiote that forms through deep integration, evolves with the user, and persists across brains, tools, and surfaces.
+A user-owned digital symbiote that forms through deep integration, co-evolves with the user, and persists across brains, tools, and surfaces.
 
 ## Product definition
 
 The system should provide:
 
 - formation through observation, correction, and use
-- ongoing adaptation as the user changes
 - personal continuity across brains, tools, devices, and environments
 - durable memory
 - a deeper self-model for delegation, adaptive representation, and continuity
@@ -38,7 +37,6 @@ The system should feel like:
 - your environments stay yours
 - your symbiote grows with you
 - your symbiote remembers what should be remembered
-- you decide how it thinks, acts, and shares
 - you can swap parts of the stack while preserving continuity
 
 ## Design Commitments

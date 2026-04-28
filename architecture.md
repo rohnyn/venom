@@ -19,7 +19,7 @@ Working intuition:
 - a digital counterpart
 - formed through symbiosis, not just configuration
 
-The symbiote preserves continuity across environments while becoming more aligned through observation, correction, and shared history.
+The symbiote preserves continuity across environments while taking shape through observation, correction, and shared history.
 
 It carries:
 
@@ -32,7 +32,7 @@ Its expression can vary in tone, initiative, and style through configurable expr
 
 It is not meant to be a static copy of the user.
 
-It is a coupled system that should evolve with the user, becoming more legible, more useful, and more aligned over time.
+It is a coupled system that should co-evolve with the user, becoming more legible, more useful, and more intertwined over time.
 
 It sits inside a wider control plane that governs it and situates it socially:
 
@@ -50,9 +50,9 @@ The symbiote forms through:
 
 Early bootstrap is likely slower and more intimate than assistant setup.
 
-Over time, the system should become more aligned without collapsing into a generic assistant persona.
+Over time, the relationship should deepen without collapsing into a generic assistant persona.
 
-The user is not static either. The symbiote should keep adapting as the user grows and changes.
+Formation should continue as the user evolves; it should not end at setup.
 
 ### Self-model
 
