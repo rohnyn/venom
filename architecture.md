@@ -2,7 +2,9 @@
 
 ## System shape
 
-Separate identity, cognition, governance, trust, embodiment, formation, and configuration so the stack can be swapped while preserving continuity.
+Keep the symbiote itself distinct from the layers around it.
+
+Brains, rules, trust, surfaces, and interfaces should be able to change without breaking continuity.
 
 ## Core components
 
@@ -127,6 +129,10 @@ They may hold:
 - local rules
 - local expectations
 
+### Representation
+
+How the symbiote shows up in a given context.
+
 Representation may take forms such as:
 
 - observe
@@ -137,7 +143,7 @@ Representation may take forms such as:
 
 Representation should track a changing user in a changing context, not just enforce a fixed mask.
 
-The trust graph works together with the self-model and rules to shape representation over time and across contexts.
+The trust graph, self-model, rules, and shared contexts work together to shape representation over time.
 
 ### Intent stack
 
@@ -172,9 +178,7 @@ Mobile is one likely first deep embodiment because it offers the richest persona
 
 Where the symbiote's work lands: services, devices, systems, workflows, and people.
 
-This is distinct from embodiment surfaces.
-
-Embodiment is where the symbiote is present.
+Embodiment surfaces are where the symbiote is present.
 
 World interfaces are what it can act through or toward.
 
@@ -184,7 +188,7 @@ Placeholder for history, provenance, intervention, and reversal. This can later 
 
 ### Configuration layer
 
-The swappability contract that keeps every layer configurable while preserving symbiote continuity.
+How brains, tools, surfaces, and policies are selected and swapped while preserving symbiote continuity.
 
 ## Swappability
 
@@ -193,11 +197,14 @@ Brains, tools, and services are components that the symbiote may work through.
 The layers that should stay distinct are:
 
 - symbiote
+- formation layer
 - rules
 - trust graph
-- formation layer
+- shared contexts
 - brain layer
 - embodiment surfaces
+- world interfaces
+- activity ledger
 - configuration layer
 
 The key principle is:
@@ -208,9 +215,11 @@ The key principle is:
 
 - the symbiote is singular even if embodiment is plural
 - the symbiote is formed through symbiosis, not merely configured
+- formation continues after setup
 - brains are replaceable
 - the self-model defines the self the symbiote is trying to preserve
 - rules govern what the symbiote may do and how it may work through brains and services
+- representation should adapt with context without severing continuity
 - mobile first is a sequencing choice
 - no single surface defines the project
 - trust is social and multi-dimensional
