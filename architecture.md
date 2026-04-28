@@ -27,7 +27,6 @@ It carries:
 
 - memory
 - self-model
-- preferences, commitments, and ongoing state
 
 Its expression can vary in tone, initiative, and style through configurable expression.
 
@@ -78,13 +77,13 @@ Stores:
 - preferences
 - relational patterns
 - routines
-- commitments
 - salient past experience
-- unresolved state
 
 Memory is not the full historical record.
 
 It is what the symbiote retains because it still matters.
+
+Active intent can draw on memory, but it is not the same as what is currently live.
 
 ### Rules
 
@@ -150,11 +149,15 @@ Representation may take forms such as:
 
 Representation should track a changing user in a changing context, not just enforce a fixed mask.
 
-The trust graph, self-model, rules, and shared contexts work together to shape representation over time.
+Representation is shaped over time by the trust graph, self-model, rules, and shared contexts.
 
 ### Intent stack
 
-Tracks explicit asks, ongoing goals, latent obligations, and unfinished work.
+Tracks explicit asks, active commitments, ongoing goals, latent obligations, and unresolved work.
+
+This is the symbiote's current working set, not its long-term memory.
+
+The intent stack can draw on memory and self-model without collapsing them into one store.
 
 ### Attention model
 
@@ -205,6 +208,8 @@ The activity ledger is not the same as memory.
 The ledger records events.
 
 Memory retains what still matters.
+
+Formation can draw on the ledger, and memory can retain from it, without collapsing into it.
 
 ### Configuration layer
 
