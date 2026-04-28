@@ -1,0 +1,9 @@
+flowchart TB
+    A["User Apps<br/>3P apps, system apps, launcher, dialer, settings"] --> B["Android Framework APIs<br/>Activity, Package, Window, Notification, Location"]
+    B --> C["System Server<br/>Core Android system services"]
+    C --> D["Android Runtime (ART) + Zygote"]
+    C --> E["Native System Daemons / Services<br/>SurfaceFlinger, media, audio, netd, vold, keystore, statsd"]
+    E --> F["HAL / Vendor Services<br/>Camera, audio, sensors, radio, biometrics, NN drivers"]
+    D --> G["Native Libraries<br/>Bionic, SQLite, SSL, graphics, ML runtimes"]
+    F --> H["Linux Kernel<br/>Scheduler, memory, drivers, binder, power"]
+    G --> H
