@@ -1,38 +1,46 @@
-# Mobile Play
+# Venom
 
-Working repo for exploring an AI-native mobile OS.
+Working repo for exploring a user-owned clone platform and control plane.
 
-## Current thesis
+## Current Position
 
-We are building a mobile OS where the primary abstraction is not apps alone, but a persistent personal operator that can observe, remember, decide, and act across the device under user-defined policy.
+Venom is a clone-first project whose first natural deep embodiment is mobile.
 
-The near-term design problem is how to bridge:
+Its primary abstraction is a persistent personal clone and the control plane around it.
 
-- today's app-first phone UX
-- tomorrow's operator-first model
+One useful shorthand:
 
-without breaking the habits and trust model users already expect from mobile.
+- heavily inspired by OpenClaw
+- centered on your clone
+- shaped around deep integration and symbiosis with the user
+- mobile first
+- and with the expectation that other integration layers follow
+
+The current design task is to define:
+
+- the clone
+- the SOUL that defines it
+- the rules that govern it
+- the social and trust model around it
+- the integration surfaces it can inhabit
+- the swappable brains and tools it can work through
+
+before committing to implementation details.
 
 ## Read this first
 
-- [docs/vision.md](/Users/james/mobile-play/docs/vision.md)
-- [docs/thesis.md](/Users/james/mobile-play/docs/thesis.md)
-- [docs/ux-transition.md](/Users/james/mobile-play/docs/ux-transition.md)
-- [docs/architecture.md](/Users/james/mobile-play/docs/architecture.md)
-- [docs/landscape.md](/Users/james/mobile-play/docs/landscape.md)
-
-## Repo structure
-
-- `docs/`: synthesized thinking and working docs
-- `research/`: source index plus company/project notes
-- `decisions/`: ADR-style decision records
-- `notes/`: raw notes and meeting captures
-- `diagrams/`: Mermaid source for system and product diagrams
+- [vision.md](vision.md)
+- [thesis.md](thesis.md)
+- [architecture.md](architecture.md)
+- [roadmap.md](roadmap.md)
 
 ## Current working beliefs
 
-- The right long-term object is a persistent personal operator, not a chatbot app.
-- The OS should own memory, policy, capability brokering, audit, and delegation.
-- Apps remain the compatibility layer even if the operator becomes the primary control plane.
-- Trust depends on bounded autonomy, explicit policy, and reversible actions.
-- The market is crowded at the assistant layer but still open at the user-owned OS-native layer.
+- The long-term object is a persistent personal clone.
+- OpenClaw is a major inspiration.
+- The missing layer is a user-owned control plane for memory, SOUL, rules, trust, and representation across environments.
+- The stack should be swappable layer by layer, with identity kept distinct from brains, tools, and services.
+- Mobile is the first natural deep integration layer.
+- Desktop, browser, wearables, and service workflows are plausible future embodiments.
+- Trust is social, multidimensional, and user-defined.
+- The model should lead implementation.
