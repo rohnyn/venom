@@ -29,10 +29,13 @@ before committing to implementation details.
 
 ## Read this first
 
-- [vision.md](vision.md)
-- [thesis.md](thesis.md)
-- [architecture.md](architecture.md)
-- [roadmap.md](roadmap.md)
+If you're new here, read in this order:
+
+1. [why-venom.md](why-venom.md)
+2. [vision.md](vision.md)
+3. [thesis.md](thesis.md)
+4. [architecture.md](architecture.md)
+5. [roadmap.md](roadmap.md)
 
 ## Current working beliefs
 
