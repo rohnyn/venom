@@ -32,7 +32,7 @@ Its expression can vary in tone, initiative, and style through configurable expr
 
 It is not meant to be a static copy of the user.
 
-It is a coupled system that should co-evolve with the user, becoming more legible, more useful, and more intertwined over time.
+It is a coupled system that should co-evolve with the user, becoming more natural, more useful, and more intertwined over time.
 
 It sits inside a wider control plane that governs it and situates it socially:
 
@@ -65,14 +65,6 @@ It may include:
 - delegation posture
 - identity preferences
 - preferences about how the symbiote should show up in the world
-
-One important part of this self-model is `SOUL`.
-
-`SOUL` carries:
-
-- what the symbiote is trying to preserve
-- how it should show up
-- what should remain true across contexts
 
 ### Memory
 
