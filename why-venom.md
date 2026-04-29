@@ -86,19 +86,6 @@ It is the wrong model for Venom if live ideas and evolving relationships need to
 In OpenClaw, those things would be emulated through sessions, files, and conventions.
 In Venom, they need to be native.
 
-### 4. OpenClaw scales by adding more isolated agents
-
-OpenClaw's multi-agent model is also explicit: each agent gets its own isolated workspace, auth, and session history.
-
-That is the right move for multiple assistants, personas, or people.
-
-Venom wants one symbiote that can appear across many surfaces and contexts while keeping one deeper identity model.
-
-OpenClaw's native move is another agent.
-Venom's native move is another embodiment of the same symbiote.
-
-That is a real architectural difference.
-
 ## What this means
 
 This is not "OpenClaw is weak."
@@ -110,7 +97,6 @@ Yes, but only by replacing more and more of what OpenClaw is centered on:
 
 - its primary objects
 - its session-first continuity model
-- its isolated-agent scaling model
 
 That is not a normal customization.
 That is a new system wearing some OpenClaw parts.
