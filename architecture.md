@@ -26,7 +26,7 @@ The symbiote preserves continuity across environments while taking shape through
 It carries:
 
 - memory
-- self-model
+- identity
 
 Its expression can vary in tone, initiative, and style through configurable expression.
 
@@ -58,7 +58,7 @@ Shared history matters here, but not as a raw dump of everything that happened.
 
 Formation is shaped by lived interaction over time.
 
-### Self-model
+### Identity
 
 The deeper self-definition carried inside the symbiote.
 
@@ -119,9 +119,9 @@ Rules define:
 
 Rules govern the symbiote's action.
 
-The self-model and rules stay distinct:
+Identity and rules stay distinct:
 
-- the self-model defines the self
+- identity defines the self
 - rules govern behavior
 
 ### Trust graph
@@ -158,7 +158,7 @@ Representation may take forms such as:
 
 Representation should track a changing user in changing situations and around changing ideas, not just enforce a fixed mask.
 
-Representation is shaped over time by the trust graph, self-model, rules, and ideas.
+Representation is shaped over time by the trust graph, identity, rules, and ideas.
 
 ### Intent stack
 
@@ -249,7 +249,7 @@ The key principle is:
 - the symbiote is formed through symbiosis, not merely configured
 - formation continues after setup
 - brains are replaceable
-- the self-model defines the self the symbiote is trying to preserve
+- identity defines the self the symbiote is trying to preserve
 - ideas are living objects the symbiote tracks and helps form
 - rules govern what the symbiote may do and how it may work through brains and services
 - representation should adapt with context without severing continuity

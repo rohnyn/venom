@@ -29,7 +29,7 @@ Venom needs different native objects:
 
 - `symbiote`
 - `ideas`
-- `self-model`
+- `identity`
 - `rules`
 - `trust graph`
 - `representation modes`

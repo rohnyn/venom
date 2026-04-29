@@ -11,7 +11,7 @@ The system should provide:
 - formation through observation, correction, and use
 - personal continuity across brains, tools, devices, and environments
 - durable memory
-- a deeper self-model for delegation, adaptive representation, and continuity
+- a deeper identity for delegation, adaptive representation, and continuity
 - an independent rules layer
 - a trust model for people, groups, and services
 - swappable brains, tools, and connectors

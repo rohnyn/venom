@@ -14,7 +14,7 @@ Right now the work is to define the core model:
 
 - what the symbiote is
 - how it forms
-- how its self-model works
+- how its identity works
 - how its rules and trust model govern it
 - what surfaces and swappable systems it can work through
 

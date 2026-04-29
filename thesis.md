@@ -24,9 +24,9 @@ Assistant runtimes are optimizing a different layer:
 Both matter, but Venom targets the deeper user layer:
 
 - a bonded symbiotic layer around the user
-- a durable self-model
+- a durable identity
 - user-owned memory
-- user-owned identity
+- user-owned continuity
 - deeper delegation
 - adaptive social representation
 - stack swappability
@@ -111,7 +111,7 @@ The primary abstraction becomes:
 
 - a user-owned symbiote
 - a formation loop that shapes it over time
-- a self-model that defines it
+- an identity that defines it
 - a rules layer that governs it
 - a brain layer it can work through
 - embodiment surfaces it can inhabit
