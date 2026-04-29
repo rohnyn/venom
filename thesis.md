@@ -97,17 +97,7 @@ Three things are converging:
 
 ## What is missing
 
-Venom is a user-owned control plane for:
-
-- symbiote formation
-- symbiote continuity
-- memory
-- self-model
-- rules
-- trust
-- representation between people, symbiotes, and services
-- work across brains, tools, environments, and runtimes
-- history and intervention
+What is missing is a persistent, user-owned digital counterpart that can evolve with the user.
 
 ## Core design line
 

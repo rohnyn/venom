@@ -46,7 +46,7 @@ The symbiote forms through:
 - observation
 - correction
 - repeated use
-- shared history across contexts
+- shared history across lived experience
 
 Early bootstrap is likely slower and more intimate than assistant setup.
 
@@ -83,7 +83,26 @@ Memory is not the full historical record.
 
 It is what the symbiote retains because it still matters.
 
+Memory is retained content grounded in lived reality, whether external, emotional, relational, or interpretive.
+
 Active intent can draw on memory, but it is not the same as what is currently live.
+
+### Ideas
+
+Ideas are live objects of possibility, interpretation, imagination, or developing coherence that may draw on reality but are not required to be grounded in it.
+
+Ideas are not every passing thought.
+
+An idea may begin loose, become more defined, gather people or obligations around it, become active, or fade.
+
+Ideas may be:
+
+- private or shared
+- conceptual or practical
+- relational, strategic, emotional, or creative
+- early signals or long-running threads
+
+Ideas are distinct from memory and intent.
 
 ### Rules
 
@@ -115,7 +134,7 @@ Trust starts simple and can vary across dimensions such as:
 - influence
 - representation
 
-The graph includes trust-bearing actors and contexts such as:
+The graph includes trust-bearing actors and relationships such as:
 
 - people
 - groups
@@ -123,21 +142,11 @@ The graph includes trust-bearing actors and contexts such as:
 - services
 - brains
 - other symbiotes
-- shared contexts
-
-### Shared contexts
-
-Scoped contexts such as household, team, project, trip, or relationship.
-
-They may hold:
-
-- shared items
-- local rules
-- local expectations
+- shared ideas
 
 ### Representation
 
-How the symbiote shows up in a given context.
+How the symbiote shows up in a given situation, relationship, or line of action.
 
 Representation may take forms such as:
 
@@ -147,17 +156,15 @@ Representation may take forms such as:
 - speak
 - act
 
-Representation should track a changing user in a changing context, not just enforce a fixed mask.
+Representation should track a changing user in changing situations and around changing ideas, not just enforce a fixed mask.
 
-Representation is shaped over time by the trust graph, self-model, rules, and shared contexts.
+Representation is shaped over time by the trust graph, self-model, rules, and ideas.
 
 ### Intent stack
 
 Tracks explicit asks, active commitments, ongoing goals, latent obligations, and unresolved work.
 
 This is the symbiote's current working set, not its long-term memory.
-
-The intent stack can draw on memory and self-model without collapsing them into one store.
 
 ### Attention model
 
@@ -223,9 +230,9 @@ The layers that should stay distinct are:
 
 - symbiote
 - formation layer
+- ideas
 - rules
 - trust graph
-- shared contexts
 - brain layer
 - embodiment surfaces
 - world interfaces
@@ -243,10 +250,10 @@ The key principle is:
 - formation continues after setup
 - brains are replaceable
 - the self-model defines the self the symbiote is trying to preserve
+- ideas are living objects the symbiote tracks and helps form
 - rules govern what the symbiote may do and how it may work through brains and services
 - representation should adapt with context without severing continuity
 - mobile first is a sequencing choice
 - no single surface defines the project
 - trust is social and multi-dimensional
-- shared contexts are scoped containers
 - the activity ledger must be legible enough for intervention

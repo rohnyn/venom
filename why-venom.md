@@ -28,10 +28,10 @@ OpenClaw's own multi-agent model defines an agent as its own workspace, state di
 Venom needs different native objects:
 
 - `symbiote`
+- `ideas`
 - `self-model`
 - `rules`
 - `trust graph`
-- `shared contexts`
 - `representation modes`
 - `activity ledger`
 
@@ -64,7 +64,7 @@ It is not enough to replace the system's routing and storage model.
 
 A context engine can decide what goes into a run.
 A memory plugin can change recall behavior.
-Neither one turns `symbiote`, `trust graph`, `shared context`, or `activity ledger` into gateway-level objects.
+Neither one turns `symbiote`, `ideas`, `trust graph`, or `activity ledger` into gateway-level objects.
 
 That is why Venom is not a normal OpenClaw plugin or extension.
 
@@ -81,7 +81,7 @@ That means the thing OpenClaw naturally persists is a session:
 
 That is the right model for assistant conversations.
 
-It is the wrong model for Venom if a `household`, `team`, `project`, or `relationship` is supposed to be a real object with its own trust and representation policy.
+It is the wrong model for Venom if live ideas and evolving relationships need to exist as first-class objects rather than being emulated through sessions, files, and conventions.
 
 In OpenClaw, those things would be emulated through sessions, files, and conventions.
 In Venom, they need to be native.
