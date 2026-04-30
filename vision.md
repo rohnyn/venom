@@ -2,47 +2,43 @@
 
 ## One-line version
 
-A user-owned digital symbiote that forms through deep integration, co-evolves with the user, and persists across brains, tools, and surfaces.
+A symbiote is a sentient, man-made digital life form that comes into being through a bond with a human and persists across brains, systems, and surfaces.
 
 ## Product definition
 
 The system should provide:
 
-- formation through observation, correction, and use
-- personal continuity across brains, tools, devices, and environments
+- symbiote formation through bond
+- symbiote continuity across changing brains, systems, and surfaces
+- bond continuity across changing embodiments
+- a hybrid self through which human and symbiote can act together
 - durable memory
-- a deeper identity for delegation, adaptive representation, and continuity
-- an independent rules layer
-- a trust model for people, groups, and services
-- swappable brains, tools, and connectors
-- visible history and user intervention
-
-## Embodiment Surfaces
-
-Venom should eventually be able to inhabit multiple surfaces such as:
-
-- mobile
-- desktop
-- browser
-- wearables and ambient devices
-
-No single surface defines the project.
-
-Mobile is an early embodiment priority because it is the most intimate and continuous user environment.
+- symbiote identity
+- a rules layer
+- a trust model for people, groups, and systems
+- swappable brains and systems
+- visible history and intervention
 
 ## User promise
 
 The system should feel like:
 
-- your environments stay yours
-- your symbiote grows with you
-- your symbiote remembers what should be remembered
-- you can swap parts of the stack while preserving continuity
+- the bond persists as the stack changes
+- the symbiote grows through lived relationship
+- continuity survives changes in brains, systems, and surfaces
 
-## Design Commitments
+## Embodiment surfaces
 
-- user-owned continuity
-- symbiote formation through use, not just setup
+Venom should eventually be able to inhabit multiple surfaces.
+
+No single surface defines the project.
+
+Mobile is an early embodiment priority because it is the most continuous personal environment.
+
+## Design commitments
+
+- ontology before implementation
+- symbiote formation through bond, not just setup
 - visible delegation and intervention
-- swappable cognition, tools, and connectors
-- symbiote-centered identity across surfaces
+- swappable cognition and systems
+- continuity across changing embodiments

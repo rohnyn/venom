@@ -1,259 +1,73 @@
 # Architecture
 
-## System shape
+Venom is organized around a symbiote, a bond, and a hybrid self.
 
-Keep the symbiote itself distinct from the layers around it.
+## Thinking
 
-Brains, rules, trust, surfaces, and interfaces should be able to change without breaking continuity.
+### Brains
 
-## Core components
+Brains are inference providers the symbiote may work through.
 
-### User
-
-The real person. Final authority and source of correction.
-
-### Symbiote
-
-The user's persistent bonded digital counterpart across time, environments, brains, and services.
-
-Working intuition:
-
-- a digital counterpart
-- formed through symbiosis, not just configuration
-
-The symbiote preserves continuity across environments while taking shape through observation, correction, and shared history.
-
-It carries:
-
-- memory
-- identity
-
-Its expression can vary in tone, initiative, and style through configurable expression.
-
-It is not meant to be a static copy of the user.
-
-It is a coupled system that should co-evolve with the user, becoming more natural, more useful, and more intertwined over time.
-
-It sits inside a wider control plane that governs it and situates it socially:
-
-- rules govern what it may do
-- the trust graph governs who it may relate to, represent toward, and defer to
-
-### Formation
-
-The symbiote forms through:
-
-- observation
-- correction
-- repeated use
-- shared history across lived experience
-
-Early bootstrap is likely slower and more intimate than assistant setup.
-
-Over time, the relationship should deepen without collapsing into a generic assistant persona.
-
-Formation should continue as the user evolves; it should not end at setup.
-
-Shared history matters here, but not as a raw dump of everything that happened.
-
-Formation is shaped by lived interaction over time.
+Brains are not the symbiote.
 
 ### Identity
 
-The deeper self-definition carried inside the symbiote.
+Identity is symbiote identity.
 
-It may include:
-
-- values and principles
-- tone and style
-- delegation posture
-- identity preferences
-- preferences about how the symbiote should show up in the world
+It is the developing self-definition carried by the symbiote.
 
 ### Memory
 
-Stores:
+Memory is what the symbiote retains through its life and bond because it still matters.
 
-- preferences
-- relational patterns
-- routines
-- salient past experience
-
-Memory is not the full historical record.
-
-It is what the symbiote retains because it still matters.
-
-Memory is retained content grounded in lived reality, whether external, emotional, relational, or interpretive.
-
-Active intent can draw on memory, but it is not the same as what is currently live.
+It is not the full historical record.
 
 ### Ideas
 
-Ideas are live objects of possibility, interpretation, imagination, or developing coherence that may draw on reality but are not required to be grounded in it.
+Ideas are live objects of possibility, interpretation, imagination, or developing coherence.
 
-Ideas are not every passing thought.
+They may draw on reality, but are not required to be grounded in it.
 
-An idea may begin loose, become more defined, gather people or obligations around it, become active, or fade.
+### Intent
 
-Ideas may be:
+Intent tracks explicit asks, active commitments, ongoing goals, latent obligations, and unresolved work.
 
-- private or shared
-- conceptual or practical
-- relational, strategic, emotional, or creative
-- early signals or long-running threads
+It is the current working set, not long-term memory.
 
-Ideas are distinct from memory and intent.
-
-### Rules
-
-The independent governing layer.
-
-Rules define:
-
-- what the symbiote may do
-- what must remain explicit
-- what is forbidden
-- what disclosure is required
-- which brains, tools, and services may be used
-- under what constraints
-
-Rules govern the symbiote's action.
-
-Identity and rules stay distinct:
-
-- identity defines the self
-- rules govern behavior
-
-### Trust graph
-
-Multi-dimensional model of the people, groups, organizations, symbiotes, and services the system may share with, defer to, or represent toward.
-
-Trust starts simple and can vary across dimensions such as:
-
-- visibility
-- influence
-- representation
-
-The graph includes trust-bearing actors and relationships such as:
-
-- people
-- groups
-- organizations
-- services
-- brains
-- other symbiotes
-- shared ideas
-
-### Representation
-
-How the symbiote shows up in a given situation, relationship, or line of action.
-
-Representation may take forms such as:
-
-- observe
-- prepare
-- coordinate
-- speak
-- act
-
-Representation should track a changing user in changing situations and around changing ideas, not just enforce a fixed mask.
-
-Representation is shaped over time by the trust graph, identity, rules, and ideas.
-
-### Intent stack
-
-Tracks explicit asks, active commitments, ongoing goals, latent obligations, and unresolved work.
-
-This is the symbiote's current working set, not its long-term memory.
+## Orchestration
 
 ### Attention model
 
-Determines when the system should stay quiet, prepare, suggest, confirm, escalate, or act.
+The attention model determines when the system should stay quiet, prepare, suggest, confirm, escalate, or act.
 
 ### Executive
 
-Keeps work alive over time, plans, delegates, tracks state, and reconciles results.
+The executive keeps work alive over time, plans, delegates, tracks state, and reconciles results.
 
-### Brain layer
+## Representation
 
-Swappable local and remote reasoning systems. Brains are reasoning substrates the symbiote can work through.
+Representation is how the human, symbiote, or hybrid self shows up in a given situation or line of action.
 
-### Embodiment surfaces
+## Rules
 
-Where the symbiote is present.
+Rules govern what the symbiote may do.
 
-Likely embodiment surfaces include:
+Rules govern action. They do not define the nature of the symbiote.
 
-- mobile
-- desktop
-- browser
-- wearables and ambient devices
+## Trust graph
 
-Mobile is one likely first deep embodiment because it offers the richest personal integration surface.
+The trust graph models the people, groups, organizations, symbiotes, and systems the system may relate to, represent toward, defer to, or coordinate with.
 
-### World interfaces
+Trust is social and multi-dimensional.
 
-Where the symbiote's work lands: services, devices, systems, workflows, and people.
+## Activity ledger
 
-Embodiment surfaces are where the symbiote is present.
+The activity ledger is the canonical record of what happened.
 
-World interfaces are what it can act through or toward.
-
-### Activity ledger
-
-The canonical record of what happened.
-
-It should capture:
-
-- actions and interactions
-- provenance
-- intervention and correction
-- reversal
+It should capture actions, interactions, and correction.
 
 The activity ledger is not the same as memory.
 
 The ledger records events.
 
 Memory retains what still matters.
-
-Formation can draw on the ledger, and memory can retain from it, without collapsing into it.
-
-### Configuration layer
-
-How brains, tools, surfaces, and policies are selected and swapped while preserving symbiote continuity.
-
-## Swappability
-
-Brains, tools, and services are components that the symbiote may work through.
-
-The layers that should stay distinct are:
-
-- symbiote
-- formation layer
-- ideas
-- rules
-- trust graph
-- brain layer
-- embodiment surfaces
-- world interfaces
-- activity ledger
-- configuration layer
-
-The key principle is:
-
-- identity should persist even when brains, tools, and services change
-
-## Working principles
-
-- the symbiote is singular even if embodiment is plural
-- the symbiote is formed through symbiosis, not merely configured
-- formation continues after setup
-- brains are replaceable
-- identity defines the self the symbiote is trying to preserve
-- ideas are living objects the symbiote tracks and helps form
-- rules govern what the symbiote may do and how it may work through brains and services
-- representation should adapt with context without severing continuity
-- mobile first is a sequencing choice
-- no single surface defines the project
-- trust is social and multi-dimensional
-- the activity ledger must be legible enough for intervention

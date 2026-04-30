@@ -6,8 +6,8 @@ This repo raises a fair question:
 
 Short answer:
 
-- OpenClaw runs assistants.
-- Venom forms, governs, and preserves a user-owned symbiote.
+- OpenClaw runs assistants and agents.
+- Venom forms and preserves symbiotes, relationships, and hybrid selves.
 
 The difference is architectural, not cosmetic.
 
@@ -23,21 +23,17 @@ OpenClaw is built around:
 - `channel account`
 - `binding`
 
-OpenClaw's own multi-agent model defines an agent as its own workspace, state directory, auth profiles, and session store.
-
 Venom needs different native objects:
 
 - `symbiote`
 - `ideas`
-- `identity`
 - `rules`
 - `trust graph`
-- `representation modes`
 - `activity ledger`
 
 Venom needs to store, route, and reason around those directly.
 
-If they only exist as prompt text, markdown files, or plugin-owned metadata inside OpenClaw, they are not first-class. They are conventions layered on top of an assistant runtime.
+If they only exist as prompt text, markdown files, or plugin-owned metadata inside OpenClaw, they are not first-class.
 
 ### 2. OpenClaw's extension surface is too narrow
 
@@ -57,20 +53,21 @@ That tells you where OpenClaw expects customization to happen:
 - memory behavior
 - prompt assembly
 - compaction
-- some runtime hooks
+- runtime hooks
 
 That is enough to change how an assistant behaves.
-It is not enough to replace the system's routing and storage model.
+
+It is not enough to replace the system's native objects.
 
 A context engine can decide what goes into a run.
+
 A memory plugin can change recall behavior.
-Neither one turns `symbiote`, `ideas`, `trust graph`, or `activity ledger` into gateway-level objects.
 
-That is why Venom is not a normal OpenClaw plugin or extension.
+Neither one turns `symbiote`, `ideas`, `rules`, `trust graph`, or `activity ledger` into gateway-level objects.
 
-### 3. OpenClaw persists continuity as gateway-owned sessions
+### 3. OpenClaw persists continuity as sessions
 
-OpenClaw is explicit about this: all session state is owned by the gateway and stored per agent under `~/.openclaw/agents/<agentId>/sessions`.
+OpenClaw is explicit about this: session state is stored per agent under `~/.openclaw/agents/<agentId>/sessions`.
 
 That means the thing OpenClaw naturally persists is a session:
 
@@ -81,14 +78,12 @@ That means the thing OpenClaw naturally persists is a session:
 
 That is the right model for assistant conversations.
 
-It is the wrong model for Venom if live ideas and evolving relationships need to exist as first-class objects rather than being emulated through sessions, files, and conventions.
-
-In OpenClaw, those things would be emulated through sessions, files, and conventions.
-In Venom, they need to be native.
+It is the wrong model for Venom if the continuity of the symbiote and its relationships has to be emulated through sessions, files, and conventions.
 
 ## What this means
 
 This is not "OpenClaw is weak."
+
 It is "OpenClaw is centered on different primitives."
 
 Could you build Venom as a deep OpenClaw fork?
@@ -96,9 +91,10 @@ Could you build Venom as a deep OpenClaw fork?
 Yes, but only by replacing more and more of what OpenClaw is centered on:
 
 - its primary objects
-- its session-first continuity model
+- its continuity model
 
 That is not a normal customization.
+
 That is a new system wearing some OpenClaw parts.
 
 ## What OpenClaw can still be
